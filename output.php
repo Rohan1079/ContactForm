@@ -10,9 +10,9 @@ $newUser->comment = $_POST["comment"];
 function sqlEntry()
         {
             $servername = "localhost";
-            $username = "rohan";
-            $password = "Rohan@1079";
-            $dbname ="users";
+            $username = "********"; //your database username
+            $password = "********"; //your databse password
+            $dbname ="*****"; //your database name
             $newUser = new user();
             $newUser->name = $_POST["userName"];
             $newUser->eMail = $_POST["userEmail"];
