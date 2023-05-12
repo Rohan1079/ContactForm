@@ -1,4 +1,6 @@
+
 <?php
+// This is my code for contact form
 class user 
 {
     public $name;
